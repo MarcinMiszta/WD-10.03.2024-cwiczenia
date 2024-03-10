@@ -3,4 +3,4 @@ def pole(a=12,b=2,h=10):
     return p
 
 
-print(pole(5,4,5))
+print(pole(5, 4, 5))
