@@ -57,11 +57,33 @@ from math import *
 # print(rownanie_kwadratowe(2, 6, 1))
 
 
-def dlugosc_odcinka(x1=1, x2=2, y1=3, y2=4):
-    return sqrt((x1-x2)**2 + (y1-y2)**2)
+# def dlugosc_odcinka(x1=1, x2=2, y1=3, y2=4):
+#     return sqrt((x1-x2)**2 + (y1-y2)**2)
+#
+#
+# print(dlugosc_odcinka())
+# print(dlugosc_odcinka(3, 5, 1, 6))
+# print(dlugosc_odcinka(y1=3, x1=12, x2=1, y2=6))
+# print(dlugosc_odcinka(1, 5, y2=1, y1=6))
 
+# plik = open('tekst.txt', 'r', encoding='utf-8')
+# znak = plik.read(10)
+# linia = plik.readline()
+# linie = plik.readlines()
+# plik.close()
+# print(znak)
+# print("\n")
+# print(linia)
+# print("\n")
+# print(linie)
+# plik = open('tekst.txt', 'a+', encoding='utf-8')
+# plik.write("123")
+# plik.seek(105)
+# znaki = plik.read(10)
+# print(znaki)
+# plik.close()
 
-print(dlugosc_odcinka())
-print(dlugosc_odcinka(3, 5, 1, 6))
-print(dlugosc_odcinka(y1=3, x1=12, x2=1, y2=6))
-print(dlugosc_odcinka(1, 5, y2=1, y1=6))
+with open('tekst.txt', 'r') as plik:
+    znaki = plik.read(11)
+print(znaki)
+
